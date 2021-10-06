@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "219fefb6-dcb0-4c35-b740-fb5fb254404a",
+		"name": "TransactionService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Transaction",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44359/api/Transaction/GetTransaction/46083a7e-120e-4c2a-ba8c-2f43820e7f3c",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Transaction",
+						"GetTransaction",
+						"46083a7e-120e-4c2a-ba8c-2f43820e7f3c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Transaction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"clientId\": \"string\",\r\n  \"walletAddress\": \"string\",\r\n  \"recieverWalletAddress\": \"string\",\r\n  \"dateCreated\": \"2021-10-06T12:19:32.665Z\",\r\n  \"currencyType\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44359/api/Transaction/UpdateTransaction",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44359",
+					"path": [
+						"api",
+						"Transaction",
+						"UpdateTransaction"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
