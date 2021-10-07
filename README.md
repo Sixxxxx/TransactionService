@@ -1,7 +1,7 @@
 Hello there
 
 This is a microservice application for transactions made by a client.
-Before you run the app, ensure all dependencies are up to date with the exception of Microsoft.AspNetCore.Mvc.NewtonsoftJson(install 3.1.17) . There will be no need to run migration as the application does this any time it starts up. 
+Before you run the app, ensure all dependencies are up to date with the exception of Microsoft.AspNetCore.Mvc.NewtonsoftJson(install 3.1.17). I've included the migrations folder and there will be no need to update your database as the application does this any time it starts up. 
 
 NOTE: This Application is built on .net 3.1 framework.
 
@@ -12,4 +12,4 @@ but if you want to use postman, you'll need to export the documentation which ca
 There are two endpoints the Update Transaction and Get transaction
 
 
-Happy testing.
+Happy testing
